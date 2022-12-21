@@ -1,0 +1,178 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  background-color: #1d1d1d;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-family: 'Mukta', Verdana;
+}
+.serif {
+    font-family: 'Mukta', Verdana;
+}
+.sansserif {
+    font-family: 'Mukta', Verdana;
+}
+.monospace {
+    font-family: 'Mukta', Verdana; 
+}
+header, main, footer {
+    width:1040px;
+    margin:0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;    
+    margin-left: 670px;
+}
+main{
+    padding-bottom: 100px;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+.main_img-float{
+    width: 550px;
+    float: left;
+    margin-right:40px;
+}
+.service_img {
+    width: 240px;
+}
+.service_item {
+    width: 240px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float:left;
+}
+.services {
+    padding: 35px;
+    border: 5px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.h1--invisible {
+    visibility: hidden;
+}
+.main_central {
+    width: 800px;
+    margin:0 auto;
+}
+.central {
+    text-align: center;
+    line-height: 2;
+}
+.text-decoration {
+    text-decoration: underline rgb(81, 73, 150);
+    text-align: center;
+    line-height: 1.5;
+}
+.pink { 
+    color: rgb(129, 101, 255);
+    transition: 2s;
+}
+.footer__block {
+    display: inline-table;
+    width: 595px;
+    text-transform:capitalize;
+    font-size: 25px;
+    text-align: center;
+}
+.footer__icons {
+    display: inline-block;
+    width: 335px;  
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.footer__img {
+    width: 55px;
+}
+.footer__img:hover{
+    width: 65px;
+    transition: 0.5s;
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+.strong {
+    color: rgb(177, 163, 255);
+    transition: 10s;
+}
+#mainnav ul {
+    list-style: none;
+    padding-left: 0;
+}
+#mainnav li {
+    text-transform: uppercase;
+    font-size: 24px;
+    display: inline;
+    line-height: 100px;
+}
+#mainnav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 40px;
+}
+#mainnav a:hover {
+    color: rgb(161, 152, 235);
+    transition: .5s;
+}
+#mainnav li.active a{
+ font-weight: bold;   
+}
+#service a {
+    text-decoration: none;
+    color: rgb(150, 143, 255);
+}
+#service a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+.new::after {
+    content:"new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: rgb(155, 132, 255);
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+h3 {
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Mukta';
+}
+.ffimg{
+margin-left: 80px;
+width: 900px;
+border: 5px solid rgb(109, 109, 255);
+display: block;
+margin-bottom: 30px;
+}
+.ffimg a:hover{
+    background-image: 0 -40px;
+}
+.big{
+    font-size: 40px;
+    text-shadow: 4px #ffe1e1;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+  
